@@ -8,13 +8,13 @@ import Contact from './Contact'
 export const Main = ({ cart, updateCart }) => {
   return (
     <Routes>
-        <Route exact path="/store-app" element={<Home/>} />
-        <Route exact path="/store-app/products" element={<Products category='all'/>} />
-        <Route exact path="/store-app/products/men" element={<Products category='men'/>} />
-        <Route exact path="/store-app/products/women" element={<Products category='women'/>} />
-        <Route exact path="/store-app/item" element={<ItemPage updateCart={updateCart}/>} />
-        <Route exact path="/store-app/cart" element={<CartPage cart={cart}/>} />
-        <Route exact path="/store-app/contact" element={<Contact/>} />
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/products" element={<Products category='all'/>} />
+        <Route exact path="/products/men" element={<Products category='men'/>} />
+        <Route exact path="/products/women" element={<Products category='women'/>} />
+        <Route exact path="/item" element={<ItemPage updateCart={updateCart}/>} />
+        <Route exact path="/cart" element={<CartPage cart={cart}/>} />
+        <Route exact path="/contact" element={<Contact/>} />
     </Routes>
   )
 }
