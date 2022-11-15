@@ -280,7 +280,7 @@ tr > td{
     padding: 10em;
     gap: 2em;
 
-`,Fv=({cart:e,updateCart:t})=>_(ig,{children:[f(Dt,{exact:!0,path:"/",element:f(mv,{})}),f(Dt,{exact:!0,path:"/products",element:f(Ol,{category:"all"})}),f(Dt,{exact:!0,path:"/products/men",element:f(Ol,{category:"men"})}),f(Dt,{exact:!0,path:"/products/women",element:f(Ol,{category:"women"})}),f(Dt,{exact:!0,path:"/item",element:f(Av,{updateCart:t})}),f(Dt,{exact:!0,path:"/cart",element:f(Nv,{cart:e})}),f(Dt,{exact:!0,path:"/contact",element:f(Dv,{})})]}),Uv=()=>{const[e,t]=I.exports.useState([]);return[e,r=>{t([...e,r])}]},Bv=q.div`
+`,Fv=({cart:e,updateCart:t})=>_(ig,{children:[f(Dt,{exact:!0,path:"/store-app",element:f(mv,{})}),f(Dt,{exact:!0,path:"/store-app/products",element:f(Ol,{category:"all"})}),f(Dt,{exact:!0,path:"/store-app/products/men",element:f(Ol,{category:"men"})}),f(Dt,{exact:!0,path:"/store-app/products/women",element:f(Ol,{category:"women"})}),f(Dt,{exact:!0,path:"/store-app/item",element:f(Av,{updateCart:t})}),f(Dt,{exact:!0,path:"/store-app/cart",element:f(Nv,{cart:e})}),f(Dt,{exact:!0,path:"/store-app/contact",element:f(Dv,{})})]}),Uv=()=>{const[e,t]=I.exports.useState([]);return[e,r=>{t([...e,r])}]},Bv=q.div`
 width: 1300px;
 `,Wv=()=>{const[e,t]=Uv();return _(Bv,{children:[f(zg,{cart:e}),f(Fv,{cart:e,updateCart:t}),f(pg,{})]})},Hv=r0`
   *,
